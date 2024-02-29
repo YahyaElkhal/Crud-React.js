@@ -1,0 +1,70 @@
+.crud {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.addForm {
+    margin-bottom: 20px;
+}
+
+.addForm input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.addForm button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.addForm button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.edit, .delete {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.edit:hover, .delete {
+    background-color: #0073e6;
+}
+
+button:hover{
+    background-color: red;
+
+}
+
+button{
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
